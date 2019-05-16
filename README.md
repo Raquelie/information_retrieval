@@ -23,3 +23,20 @@ The output is:
 
 - One json file for each mode (new, top, rising, hot) if they didn't exist before execution
 - Screen output for each file. Order is new, top, rising, hot
+
+
+# TGINE_twitter_v1
+
+This program extracts posts from 4 Twitter users and performs classification and basic sentiment analysis. For classification, an SVM model with different parameters is used, and only the best parameters for the training set are used to test on new data.
+
+## Execution
+
+No parameters
+
+## Output
+
+The output is:
+
+- One json file for each user 
+- Screen output for each dataset (2 users each dataset): parameters, accuracy and confusion matrix (train and test)
+- Screen output for each user: ratio of positive and negative words
