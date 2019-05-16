@@ -1,4 +1,3 @@
-# information_retrieval
 # TGINE_reddit_v1
 
 This program extracts posts and comments data from Reddit's subreddit r/AskScience and performs basic tf/idf vectorization. Four types of extraction are defined as per Reddit browing options:
